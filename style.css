@@ -1,0 +1,235 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+section{
+    background: #fff;
+}
+.container-fluid{
+    display: flex;
+}
+.container-fluid .navbar-brand {
+    font-size: 40px;
+    color:  #008352;
+    margin-left: 40px;
+    font-weight: 600;
+}
+.container-fluid .navbar-nav a{
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    margin-right: 60px;
+}
+.navbar-nav{
+    margin-right: 50px;
+}
+.navbar-nav .svg{
+    width: 40px;
+    cursor: pointer;
+}
+.navbar-nav img{
+     padding: 10px;
+}
+.navbar-nav .btn{
+    background:  #008352;
+    padding: 0 30px;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.navbar-nav .btn:hover{
+    background:  #008352;
+    color: #fff;
+}
+ .headline{
+    background: #162c5e;
+    color: #fff;
+}
+.headline .app{
+    color: #008352 ;
+    font-weight: 600;
+}
+.headline p{
+    padding-top:20px ;
+}
+
+.headline .one p{
+    margin-left: 80px;
+}
+.headline .two p{
+    margin-right: 0px;
+    margin-left: 150px;
+}
+.headline .shop{
+    width: 25px;
+}
+.headline .right{
+    width: 20px;
+}
+.sec{
+    padding: 30px 30px 80px 80px;
+}
+.sec ul{
+     display:inline-flex;
+}
+.sec ul li{
+    list-style: none;
+    padding: 10px;
+}
+.sec .chevron{
+    padding-left: 5px;
+}
+.home img{
+    width: 96%;
+    height: 100vh;
+}
+.para h1{
+    font-size: 40px;
+    margin-left: 15px;
+    padding-top: 25px;
+    padding-bottom: 8px;
+}
+.para p{
+    margin-left: 15px;
+}
+.card .card-img-top{
+    position: relative;
+    display:inline-block;
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+.blue{
+    background: #85d3d7;
+}
+.card h5{
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    color: #fff;
+    padding: 10px;
+}
+.head1{
+    left: 50px;
+}
+.black h5{
+    color: #fff;
+}
+.card .arrow{
+    position: absolute;
+    left: 20px;
+    top: 45%;
+    width: 40px;
+}
+.subCat{
+    padding-top:80px ;
+    display: flex;
+}
+.subCat .card-img-top{
+    width:100%;
+    height: 300px;
+    border-radius: 5px;
+    position: relative;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+.subCat  h5{
+    position: absolute;
+    color: white;
+    top: 210px;
+}
+#pickCategory{
+    padding-top: 90px;
+    background-color: #f7fdfb;
+}
+#pickCategory .row{
+    padding-top: 90px;
+}
+#pickCategory img{
+    position: relative;
+}
+#pickCategory h2{
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    font-weight: 400;
+}
+#pickCategory p{
+    color: #fff;
+    position: absolute;
+    top: 245px;
+    left: 15px;
+    font-weight: 400;
+}
+#app{
+    margin-top: 40px;
+    display: flex;
+    background-color: lightgrey;
+}
+#app .image{
+    width: 150;
+    height: 400px;
+    margin-left: 200px;
+    border-radius: 5px;
+    margin-right: 0;
+}
+#app .col{
+    margin-left: 0;
+}
+#app h3,h4{
+    padding: 30px auto 40px 0;
+
+}
+#app h3{
+    margin-top: 120px;
+    font-weight: 400;
+}
+#app h4{
+    font-weight: 200;
+}
+#app .btn{
+    border-radius: 25px;
+    padding: 5px 20px;
+}
+#app .btn span{
+  color: #f1f2f7;
+}
+#app .svg{
+    width: 30px;
+    align-items: center;
+} 
+#footer {
+    background-color: #171e30;
+    color: #fff;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.footer h5{
+    margin: 30px auto 30px 30px;
+}
+.footer p{
+    padding: 20px;
+}
+#footer .info{
+    margin: 60px 0;
+}
+#footer .info h4{
+    padding-bottom: 30px;
+}
+#footer .one,.two,.three,.four{
+    flex-direction: column;
+}
+#footer .img{
+    width: 230px;
+    margin-top: 130px;
+}
